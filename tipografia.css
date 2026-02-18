@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('assets/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+        url('assets/fonts/ClashDisplay-Variable.woff') format('woff'),
+        url('assets/fonts/ClashDisplay-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'ClashDisplay', sans-serif;   
+}

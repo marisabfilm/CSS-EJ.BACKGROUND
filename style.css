@@ -1,0 +1,100 @@
+:root {
+    background-color: hsl(37, 72%, 93%);
+    --clr-corporativo: hsl(18, 66%, 33%);
+    --clr-corporativo-dark: hsl(18, 66%, 20%);
+    --clr-corporativo-light: hsl(18, 66%, 60%);
+}
+
+h1 {
+    color: var(--clr-corporativo-dark);
+    font-weight: 900;
+    text-align: center;
+}
+
+
+h1::after {
+    content: attr(data-emoji);
+}
+
+h2 {
+    color: hsl(31, 100%, 79%);
+    font-weight: 600;
+    border: 1px solid var(--clr-corporativo-light);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -5px;
+    background-color: hsla(19, 100%, 9%, 0.7);
+}
+
+a {
+    color: var(--clr-corporativo-light);
+    background-color: var(--clr-corporativo-dark);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.seccion1 {
+
+    color: beige;
+    text-align: center;
+    background-image:
+        linear-gradient(hsla(18, 66%, 33%, 0.4), hsla(18, 66%, 20%, 0.4)),
+        url("img/pexels-peter-olexa-2214257-3875821.jpg");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: 0 right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.seccion1 a {
+    background-image: linear-gradient(hsla(18, 66%, 66%, 0.4), hsla(18, 66%, 20%, 0.4));
+}
+
+.seccion2 {
+
+    color: beige;
+    text-align: center;
+    background-image:
+        linear-gradient(hsla(18, 66%, 33%, 0.4), hsla(18, 66%, 20%, 0.4)),
+        url("img/budapest1.JPG");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: 0 right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.seccion2 a {
+    background-image: linear-gradient(hsla(316, 100%, 20%, 0.4), hsla(306, 100%, 86%, 0.4));
+}
+
+.seccion3 {
+
+    color: beige;
+    text-align: center;
+    background-image:
+        linear-gradient(hsla(18, 66%, 33%, 0.4), hsla(18, 66%, 20%, 0.4)),
+        url("img/pexels-leeloothefirst-4679116.jpg");
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position: 0 right;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.seccion3 a {
+    background-image: linear-gradient(hsla(215, 100%, 20%, 0.4), hsla(248, 100%, 86%, 0.4));
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
