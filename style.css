@@ -42,7 +42,7 @@ a {
     color: beige;
     text-align: center;
     background-image:
-        linear-gradient(hsla(18, 66%, 33%, 0.4), hsla(18, 66%, 20%, 0.4)),
+        linear-gradient(hsla(18, 100%, 86%, 0.3), hsla(19, 94%, 13%, 0.9)),
         url("img/pexels-peter-olexa-2214257-3875821.jpg");
     padding: 50px;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ a {
     color: beige;
     text-align: center;
     background-image:
-        linear-gradient(hsla(18, 66%, 33%, 0.4), hsla(18, 66%, 20%, 0.4)),
+        linear-gradient(hsla(18, 100%, 86%, 0.3), hsla(19, 94%, 13%, 0.9)),
         url("img/budapest1.JPG");
     padding: 50px;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ a {
     color: beige;
     text-align: center;
     background-image:
-        linear-gradient(hsla(18, 66%, 33%, 0.4), hsla(18, 66%, 20%, 0.4)),
+        linear-gradient(hsla(18, 100%, 86%, 0.6), hsla(19, 94%, 13%, 0.9)),
         url("img/pexels-leeloothefirst-4679116.jpg");
     padding: 50px;
     background-repeat: no-repeat;
